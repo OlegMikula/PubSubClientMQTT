@@ -6,4 +6,4 @@ broker_portno = 1883
 client = mqtt.Client("Python")
 client.username_pw_set(username="username", password="password")
 client.connect(broker_address, broker_portno)
-client.publish(topic = "set/Temp", payload = "Roma")
+client.publish(topic = "set/Status", payload = "25")
